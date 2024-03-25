@@ -14,5 +14,14 @@ $templateProcessor->setValue('urusan_keluarga', $unCheckedBox);
 $templateProcessor->setValue('sakit', $unCheckedBox);
 $templateProcessor->setValue('lain-lain', $unCheckedBox);
 
+$templateProcessor->setImageValue('sign1', array('path' => 'http://localhost/replaceText_PHPWord/src/img/signature.png', 'width' => 100, 'height' => 50, 'ratio' => false));
+$templateProcessor->setImageValue('sign2', array('path' => 'http://localhost/replaceText_PHPWord/src/img/signature2.png', 'width' => 100, 'height' => 50, 'ratio' => false));
+$templateProcessor->setImageValue('sign3', array('path' => 'http://localhost/replaceText_PHPWord/src/img/signature.png', 'width' => 100, 'height' => 50, 'ratio' => false));
+$templateProcessor->setImageValue('sign4', array('path' => 'http://localhost/replaceText_PHPWord/src/img/signature.png', 'width' => 100, 'height' => 50, 'ratio' => false));
+$templateProcessor->setImageValue('sign5', array('path' => 'http://localhost/replaceText_PHPWord/src/img/signature2.png', 'width' => 100, 'height' => 50, 'ratio' => false));
+
+
+
 
 $templateProcessor->saveAs('./src/docx/output.docx');
+?>
